@@ -227,25 +227,6 @@ Size: 831
 SHA256sum: 27b99be7a16d2386d7058bb140439303cdd9acc7a5f56cf4727777e377431721
 Description:  Kernel modules for support of input device
 
-Package: kmod-input-gpio-keys
-Version: 6.1.74-1
-Depends: kernel (=6.1.74-1-d01d23e1067e02e7e47227772f14a9ad), kmod-input-core
-Source: package/kernel/linux
-SourceName: kernel
-License: GPL-2.0
-Section: kernel
-SourceDateEpoch: 1705334396
-Architecture: aarch64_cortex-a53
-Installed-Size: 30720
-Filename: kmod-input-gpio-keys_6.1.74-1_aarch64_cortex-a53.ipk
-Size: 8018
-SHA256sum: 84c49c61c498ee7bbc65300277fc8894211b6bcb71ea59e69922528d1279e0b5
-Description:  This driver implements support for buttons connected
- to GPIO pins of various CPUs (and some other chips).
- 
- See also gpio-button-hotplug which is an alternative, lower overhead
- implementation that generates uevents instead of kernel input events.
-
 Package: kmod-ipt-core
 Version: 6.1.74-1
 Depends: kernel (=6.1.74-1-1b62fb6591b9c6d59beaf2bfa9ceeef9), kmod-nf-reject, kmod-nf-ipt, kmod-nf-log
@@ -283,21 +264,6 @@ Filename: kmod-ipt-raw_6.1.74-1_aarch64_cortex-a53.ipk
 Size: 2514
 SHA256sum: 68ef050f322b9143e18ab037a37ad359099a5b7a34cf3a472eb748984f7972ff
 Description:  Netfilter IPv4 raw table support
-
-Package: kmod-leds-gpio
-Version: 6.1.74-1
-Depends: kernel (=6.1.74-1-1b62fb6591b9c6d59beaf2bfa9ceeef9)
-Source: package/kernel/linux
-SourceName: kernel
-License: GPL-2.0
-Section: kernel
-SourceDateEpoch: 1705334396
-Architecture: aarch64_cortex-a53
-Installed-Size: 10240
-Filename: kmod-leds-gpio_6.1.74-1_aarch64_cortex-a53.ipk
-Size: 960
-SHA256sum: 2c74328e12ba4a116df36b864dde86329cb2125731db29ad4da102580a748540
-Description:  Kernel module for LEDs on GPIO lines
 
 Package: kmod-lib-crc-ccitt
 Version: 6.1.74-1
