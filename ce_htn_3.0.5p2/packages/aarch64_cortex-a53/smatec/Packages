@@ -1,0 +1,28 @@
+Package: mgw_h618-bsp
+Version: 2
+Depends: libc, coreutils, coreutils-timeout, htop, lscpu, alsa-utils, aria2, fdisk, luci, e2fsprogs, kmod-usb-audio, block-mount, lsblk, ffmpeg, ffprobe, mpc, mpd, usbutils, madplay, python3, python3-pyserial, python3-requests, python3-paho-mqtt, picocom, dmesg, comgt, usb-modeswitch, kmod-mii, kmod-usb-wdm, kmod-usb-net-qmi-wwan, kmod-usb-net-rndis, uqmi, kmod-usb-serial, kmod-usb-serial-option, kmod-usb-serial-wwan, liblua5.1.5, kmod-rtc-pcf8563, i2c-tools, python3-smbus, ncat, curl, tailscale, python3-mgw, speedtest-netperf, wpa-supplicant, python3-wiringpi, dosfstools, kmod-rtl8188eu, kmod-rtl8733bu, kmod-gpio-button-hotplug
+Section: utils
+URL: https://smatec.com.vn
+Architecture: aarch64_cortex-a53
+Installed-Size: 122880
+Filename: mgw_h618-bsp_2_aarch64_cortex-a53.ipk
+Size: 21607
+SHA256sum: b35dfba4442bfbb0507a0d11814f933cb89cb7fc627d35e3c15261e83972266e
+Description:  MGW_H618 Board Support Package
+
+Package: python3-mgw
+Version: MIRA_CE_HTN_3.0.5p2-1
+Depends: libc, python3
+License: Python Software Foundation License (PSF)
+Section: lang
+URL: https://smatec.com.vn
+CPE-ID: cpe:/a:smt:mgw
+Architecture: aarch64_cortex-a53
+Installed-Size: 1218560
+Filename: python3-mgw_MIRA_CE_HTN_3.0.5p2-1_aarch64_cortex-a53.ipk
+Size: 397357
+SHA256sum: 92f05cbe3a566a8a910153f6904a2e3cbed22c10fec3adffd4a3d6617ba0cfbe
+Description:  Smatec M-Gateway
+ .
+ (Variant for Python3)
+
